@@ -1,0 +1,23 @@
+{
+  "name": "dunk-discord-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
+    "@sapphire/snowflake": "^3.5.5",
+    "@sinclair/typebox": "^0.33.14",
+    "discord.js": "^14.22.1",
+    "mnemonist": "^0.40.3",
+    "tsx": "^4.19.2"
+  }
+}
