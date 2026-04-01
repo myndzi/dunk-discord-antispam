@@ -6,6 +6,7 @@ export const DiscordConfig = T.Object({
   server: T.String(),
   modChannel: T.String(),
   honeypot: T.String(),
+  dryRun: T.Boolean({ default: false }),
 });
 export type DiscordConfig = StaticDecode<typeof DiscordConfig>;
 
